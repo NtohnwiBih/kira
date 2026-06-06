@@ -56,3 +56,17 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 /generated/prisma
+*.pem
+
+# MTN Mobile Money
+MTN_MOMO_SUBSCRIPTION_KEY=0118269ac9434865a56c9b76ca02ef2a
+MTN_MOMO_API_USER=57246c80-3346-49cd-9861-3f2aa5516311
+MTN_MOMO_API_KEY=af6f172fe8fb425c9bd537d8a2ebe9fc
+
+# Orange Money
+OM_CLIENT_ID=your_client_id_here
+OM_CLIENT_SECRET=your_client_secret_here
+OM_MERCHANT_KEY=your_merchant_key_here
+
+# App URL (for webhook callbacks)
+APP_URL=http://localhost
