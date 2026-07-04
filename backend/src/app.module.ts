@@ -11,6 +11,7 @@ import { KitchenModule } from './modules/kitchen/kitchen.module';
 import { DeliveryModule } from './modules/delivery/delivery.module';
 import { RealtimeModule } from './modules/realtime/realtime.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
+import { AiGatewayModule } from './modules/ai/ai-gateway.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { NotificationsModule } from './modules/notifications/notifications.modul
     DeliveryModule,
     RealtimeModule,
     NotificationsModule,
+    AiGatewayModule,
   ],
   controllers: [AppController],
   providers: [AppService],

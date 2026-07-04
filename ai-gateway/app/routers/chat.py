@@ -7,7 +7,7 @@ from app.core.redis_client         import get_redis
 from app.core.security             import verify_service_key
 from app.services.chat_service     import ChatService
 from app.services.prompt_service   import PromptService
-from app.schemas.all_schemas       import ChatRequest, ChatResponse
+from app.schemas import ChatRequest, ChatResponse
 
 router = APIRouter(
     prefix="/chat",
